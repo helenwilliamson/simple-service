@@ -1,0 +1,7 @@
+---
+applications:
+- name: helen-slow-service
+  memory: 256M
+  instances: 1
+  path: target/scala-2.11/slow-service-assembly-0.1.0-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git

@@ -1,0 +1,20 @@
+# sbt
+.cache/
+.history/
+.lib/
+target/
+project/boot/
+project/plugins/project/
+
+# intellij
+.idea/
+.idea_modules/
+*.iml
+
+# random stuff
+*~
+*.DS_Store
+*.swp
+*.out
+build.info
+.bundle
