@@ -1,6 +1,6 @@
 ---
 applications:
-- name: helen-slow-service
+- name: helen-simple-service
   memory: 256M
   instances: 1
   path: target/scala-2.11/simple-service-assembly-0.1.0-SNAPSHOT.jar
